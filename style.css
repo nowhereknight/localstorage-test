@@ -1,5 +1,5 @@
 div {
-    padding: 10px;
+    padding: 5px;
 }
 
 .action_btn {
@@ -15,8 +15,4 @@ div {
     justify-items: center;
     align-items: center;
     background: white;
-    border-radius: 4px;
-    padding: 16px;
-    flex-grow: 1;
-    margin: 1px;
 }
