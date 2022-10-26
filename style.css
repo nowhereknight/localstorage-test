@@ -1,0 +1,30 @@
+div {
+    padding: 10px;
+}
+
+
+.action_btn {
+    width: 200px;
+    margin: 0 auto;
+    display: inline;
+    background: white;
+
+}
+
+.language_div {
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    background: white;
+    border-radius: 4px;
+    padding: 16px; 
+    flex-grow: 1;
+
+  }
+
+/* .language_div button {
+    margin-right: 16px;
+    height: 24px;
+    width: 24px;
+} */
