@@ -78,9 +78,10 @@ function updateUI() {
         tmp_div.className = "language_div"
         tmp_div.innerText = localStorage.getItem(key) + "         "
         var delete_btn = document.createElement("button")
-        var delete_i = document.createElement("i")
-        delete_i.classList.add("bi", "bi-trash")
-        delete_btn.appendChild(delete_i)
+        delete_btn.innerText = "x"
+            //var delete_i = document.createElement("i")
+            //delete_i.classList.add("bi", "bi-trash")
+            //delete_btn.appendChild(delete_i)
         delete_btn.addEventListener("click", function() {
             deleteFromLocalStorage(key)
         })
